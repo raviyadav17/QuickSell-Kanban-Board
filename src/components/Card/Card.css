@@ -1,0 +1,35 @@
+.cardContainer{
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.cardContainer > *{
+    width: 100%;
+}
+
+.showStatus{
+    position: absolute;
+    right: 0;
+    background: silver;
+    border-radius: 50%;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+}
+
+.tags{
+    width: max-content;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 2px 8px;
+}
+
+.cardTags{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
